@@ -1,16 +1,11 @@
 # Predicting Demand for Electric Vehicles
 
 ## Topic
-We are aiming to create a tool to determine the demand of electric vehicle (EV), but analyzing trends of gasoline prices, income levels and demographics. Understanding the demand can enable EV suppliers to make educated business decisions. 
+We are aiming to create a tool to determine the demand of electric vehicle (EV) in the US, but analyzing trends of gasoline prices, income levels and demographics. Electric vehicles have the potential to impact society by lowering fuel costs and reducing emissions. Understanding the demand can enable EV suppliers to make educated business decisions in the growing market for electric vehicles.
 
-
-## Sources of Data (may be subject to change):
-- CO2 and Greenhouse Gas Emissions Dataset:
-  - CO2 and Greenhouse Gas Emissions dataset is a collection of key metrics maintained by Our World in Data. It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics. 
-  - https://github.com/owid/co2-data
-
-- California Avg Temperatures : NOAA
-  - Information on average temperatures in California collected by the National Oceanic and Atmospheric Administration. The gathered information has temperature data for each month from the year 1990 to 2021.
+## Sources of Data:
+- [Availability of Charging Stations](https://github.com/moesteelo/Predict-CO2-With-Data/blob/main/Resources/Alternative_Fueling_Stations.csv): This dataset has the location and number of charging stations available in the US.
+- [Weekly Gasoline Prices](https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm): This dataset has weekly gasoline prices in the US.
 
 ## Communication Protocols (may be subject to change):
 - Line graph to convey CO2 emissions over time
