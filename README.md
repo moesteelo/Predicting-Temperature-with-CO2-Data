@@ -7,6 +7,8 @@ We are aiming to create a tool to determine the demand of electric vehicle (EV) 
 - [Availability of Charging Stations](https://github.com/moesteelo/Predict-CO2-With-Data/blob/main/Resources/Alternative_Fueling_Stations.csv): This dataset has the location and number of charging stations available in the US.
 - [Weekly Gasoline Prices](https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm): This dataset has weekly gasoline prices in the US.
 
-## Communication Protocols (may be subject to change):
-- Line graph to convey CO2 emissions over time
-- Heat map to convey average temperatures over time
+## Communication Protocols:
+- Use pandas to clean and perform exploratory analysis on the datasets. Visualize the data to understand relationships between variables, highlight trends, and identify potential outliers or unnecessary data.
+- Select and train machine learning model.
+- Evaluate the model and determine its accuracy. 
+- Use Google Slides and Tableau to communicate analysis.
