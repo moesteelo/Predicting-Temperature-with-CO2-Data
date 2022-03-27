@@ -17,9 +17,14 @@ We are hoping to explore the relationship between CO2 and climate to predict fut
 - Heat map to convey average temperatures over time
 
 
-##Database Preparation
+## Database Preparation
 
-Once we had the datasets we wanted to use, we now could endeavor to join them together for the machine learning model. Before joining them with SQL, we had to reframe the “Global Land Temperatures” dataset. The “Global Land Temperatures” dataset recorded its information by year and month (ie. 199002, 199003,...) and by state in the USA; the “C02 and Greenhouse Gas Emissions” dataset recorded their information by year and by country. [we have to convert states, to a country, and months into their respective years so we can join for the machine]
+Once we had the datasets we wanted to use, we now could endeavor to join them together for the machine learning model. Before joining them with SQL, we had to reframe the “Global Land Temperatures” dataset. The “Global Land Temperatures” dataset recorded its information by year and month (ie. 199002, 199003,...) and by state in the USA; the “C02 and Greenhouse Gas Emissions” dataset recorded their information by year and by country. This discrepancy prevented us from simply joining the two tables via SQL. The decision was made first: to convert the metric of time from "year and month" to simply "year" and second: to convert the data from being recorded by state to being recorded simply by country.
+[insert picture of the jupyter notebook here]
+
+The decision was made to convert the metric of time from "year and month" to simply "year" and a
+
+[we have to convert states, to a country, and months into their respective years so we can join for the machine]
 
 
 Now that we have our datasets, we then joined them with SQL. Before doing so, we had to clean up the temperature data from Berkeley Earth so both datasets shared the same metric of time - in this case that metric was by year. The Berkeley Earth temperature dataset recorded data by every month of a specified year (ie.199002 = February 1990) while the “C02 and Greenhouse Gas Emissions” dataset
