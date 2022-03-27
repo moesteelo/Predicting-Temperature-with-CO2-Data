@@ -15,3 +15,16 @@ We are hoping to explore the relationship between CO2 and climate to predict fut
 ## Communication Protocols (may be subject to change):
 - Line graph to convey CO2 emissions over time
 - Heat map to convey average temperatures over time
+
+
+##Database Preparation
+
+Once we had the datasets we wanted to use, we now could endeavor to join them together for the machine learning model. Before joining them with SQL, we had to reframe the “Global Land Temperatures” dataset. The “Global Land Temperatures” dataset recorded its information by year and month (ie. 199002, 199003,...) and by state in the USA; the “C02 and Greenhouse Gas Emissions” dataset recorded their information by year and by country. [we have to convert states, to a country, and months into their respective years so we can join for the machine]
+
+
+Now that we have our datasets, we then joined them with SQL. Before doing so, we had to clean up the temperature data from Berkeley Earth so both datasets shared the same metric of time - in this case that metric was by year. The Berkeley Earth temperature dataset recorded data by every month of a specified year (ie.199002 = February 1990) while the “C02 and Greenhouse Gas Emissions” dataset
+
+
+
+ <“Updated_GlobalLandTemperaturesByState.csv”> so the data could be joined with the data taken from < “Updated_USA-co2-data.csv”>. The former tracked their data by 
+
