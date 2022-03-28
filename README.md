@@ -1,25 +1,29 @@
-# Predicting Demand for Electric Vehicles
+# Predicting Temperature Using CO2 Data
 
 ## Topic
-We are aiming to create a tool to determine the demand of electric vehicle (EV) in the US, by analyzing trends of gasoline prices, income levels and demographics. Electric vehicles have the potential to impact society by lowering fuel costs and reducing emissions. These facets will be used and applied to a machine learning model which will be used to help predict the demand of EVs. Understanding the demand can enable EV suppliers to make educated business decisions in the growing market for electric vehicles.
+We are hoping to predict temperature from levels of CO2. Changes in temperature cause frequent severe weather events, droughts, heat waves, rising sea levels. It's important to understand how temperature and the climate because it can help us prepare for the future. With this exploration we plan to understand how climate and CO2 emissions affect our habitat.
 
 ## Question We Would Like to Answer:
-Given the following data below, can we predict the demand of EVs.
-  - Temperature
-  - Levels of income
-  - Demographics
-  - Levels of Education
-  - CO2 Emission
-  - Availability of vehicle charging stations
+- Can we predict temperature using data of CO2 emissions.
 
 ## Sources of Data:
-- [Kaggle: Income and Demographics Data](https://www.kaggle.com/code/moinakpalchowdhury/adult-census-income-model-comparison/data)
 - [Kaggle: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
-- [Berkley Earth: Temperature Data](http://berkeleyearth.org/)
-- [U.S. Department of Transportation: Electric Charging Stations](https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations/explore?location=19.331776%2C77.380379%2C3.62)
+- [Github: CO2 Emissions](https://github.com/owid/co2-data)
 
 ## Preliminary Data Preprocessing
-- For the income and demoraphics dataset, the data was processed to only include U.S. 
+- Temperature Data
+    - A year column was added.
+    - The data was filtered to only include US.
+    - The temperature was averaged per year.
+    - The "dt" and "state" columns were removed.
+
+- CO2 Emissions Data
+    - Columns with more than 90% NaN values were dropped.
+    - The data was filtered to only include US.
+    - Over 40 unnecessary columns were dropped.
+
+## Database Preparation
+After the datasets were cleaned, they were merged using SQL. The temperature data and CO2 data share key values: country and year. 
 
 ## Communication Protocols:
 - Use pandas to clean and perform exploratory analysis on the datasets. Visualize the data to understand relationships between variables, highlight trends, and identify potential outliers or unnecessary data.
