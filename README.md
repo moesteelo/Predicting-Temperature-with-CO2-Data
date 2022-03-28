@@ -19,7 +19,14 @@ We are hoping to explore the relationship between CO2 and climate to predict fut
 
 ## Database Preparation
 
-Once we had the datasets we wanted to use, we now could endeavor to join them together for the machine learning model. Before joining them with SQL, we had to reframe the “Global Land Temperatures” dataset. The “Global Land Temperatures” dataset recorded its information by year and month (ie. 199002, 199003,...) and by state in the USA; the “C02 and Greenhouse Gas Emissions” dataset recorded their information by year and by country. This discrepancy prevented us from simply joining the two tables via SQL. The decision was made first: to convert the metric of time from "year and month" to simply "year" and second: to convert the data from being recorded by state to being recorded simply by country.
+Once we had the datasets we wanted to use, we now could endeavor to join them together for the machine learning model. Before joining them with SQL, we had to reframe the “Global Land Temperatures” dataset. The “Global Land Temperatures” dataset recorded its information by year and month (ie. 199002, 199003,...) and by state in the USA; the “C02 and Greenhouse Gas Emissions” dataset recorded their information by year and by country. This discrepancy prevented us from simply joining the two tables via SQL. The decision was made first: to convert the metric of time from "year and month" to simply "year" and second: to convert the data from being recorded by state to being recorded simply by country. This code can be found in the github and the following are images from this process: <br/>
+
+![image](https://user-images.githubusercontent.com/72320203/160339892-1461afb0-f662-42a3-9faf-aec5734e7807.png) 
+![image](https://user-images.githubusercontent.com/72320203/160340006-fff351e2-92a4-4ee5-85a8-75091608b112.png)
+
+
+
+
 [insert picture of the jupyter notebook here]
 
 The decision was made to convert the metric of time from "year and month" to simply "year" and a
