@@ -4,17 +4,27 @@ Using complex data to help uncover the leading causes in the rise of heat temper
 ## Topic
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to predict future CO2 levels/temperatures and consequently understand the how these things will affect our habitat in the years to come. We chose this subject as climate change is an unavoidable part of life and being able to understand the ways in which this phenomenon will unfold will be important when planning for the future. With this exploration we plan to understand how CO2 emissions and other related factors will affect our habitat.
 
-## Sources of Data (may be subject to change):
-- CO2 and Greenhouse Gas Emissions Dataset:
-  - CO2 and Greenhouse Gas Emissions dataset is a collection of key metrics maintained by Our World in Data. It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics. 
-  - https://github.com/owid/co2-data
+## Sources of Data:
+- [Kaggle: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
+- [Github: CO2 Emissions](https://github.com/owid/co2-data)
 
-- California Avg Temperatures : NOAA
-  - Information on average temperatures in California collected by the National Oceanic and Atmospheric Administration. The gathered information has temperature data for each month from the year 1990 to 2021.
+## Preliminary Data Preprocessing
+- Temperature Data
+    - A year column was added.
+    - The data was filtered to only include US.
+    - The temperature was averaged per year.
+    - The "dt" and "state" columns were removed.
 
-## Communication Protocols (may be subject to change):
-- Line graph to convey CO2 emissions over time
-- Heat map to convey average temperatures over time
+- CO2 Emissions Data
+    - Columns with more than 90% NaN values were dropped.
+    - The data was filtered to only include US.
+    - Over 40 unnecessary columns were dropped.
+
+## Communication Protocols:
+- Use pandas to clean and perform exploratory analysis on the datasets. Visualize the data to understand relationships between variables, highlight trends, and identify potential outliers or unnecessary data.
+- Select and train machine learning model.
+- Evaluate the model and determine its accuracy. 
+- Use Google Slides and Tableau to communicate analysis and visualizations.
 
 
 ## Database Preparation
@@ -29,3 +39,5 @@ This left us with two datasets that we could now join through SQL. The two files
 <img width="497" alt="select" src="https://user-images.githubusercontent.com/72320203/160341352-087bc044-4d4c-4bc8-b509-d1c49fae6394.PNG">
 
 Now, we had a dataset that could be input into our machine learning model.
+
+## Machiene Learning Model
