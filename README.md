@@ -40,4 +40,4 @@ This left us with two datasets that we could now join through SQL. The two files
 
 Now, we had a dataset that could be input into our machine learning model.
 
-## Machiene Learning Model
+## Machine Learning Model
