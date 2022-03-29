@@ -1,4 +1,4 @@
-# Determining whether various CO2 pollutants contribute to the rise of heat Temperatures in the United States
+# Determining whether various CO2 pollutants contribute to the rise of heat temperatures in the United States
 Using complex data to help uncover the leading causes inn the rise of heat temperatures by various CO2 pollutants in the United States
 
 ## Topic
