@@ -1,5 +1,5 @@
 # Determining whether various CO2 pollutants contribute to the rise of heat temperatures in the United States
-Using complex data to help uncover the leading causes inn the rise of heat temperatures by various CO2 pollutants in the United States
+Using complex data to help uncover the leading causes in the rise of heat temperatures by various CO2 pollutants in the United States
 
 ## Topic
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to predict future CO2 levels/temperatures and consequently understand the how these things will affect our habitat in the years to come. We chose this subject as climate change is an unavoidable part of life and being able to understand the ways in which this phenomenon will unfold will be important when planning for the future. With this exploration we plan to understand how CO2 emissions and other related factors will affect our habitat.
