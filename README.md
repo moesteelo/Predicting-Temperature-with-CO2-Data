@@ -4,6 +4,9 @@ Using complex data to help uncover the leading causes in the rise of heat temper
 ## Topic
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to predict future CO2 levels/temperatures and consequently understand the how these things will affect our habitat in the years to come. We chose this subject as climate change is an unavoidable part of life and being able to understand the ways in which this phenomenon will unfold will be important when planning for the future. With this exploration we plan to understand how CO2 emissions and other related factors will affect our habitat.
 
+## Question We Would like to answer:
+- Do various sources CO2 emissions contribute to the rise in temperature in the US?
+
 ## Sources of Data:
 - [Kaggle: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
 - [Github: CO2 Emissions](https://github.com/owid/co2-data)
@@ -19,13 +22,6 @@ We are hoping to explore the relationship between CO2, the climate, and other fa
     - Columns with more than 90% NaN values were dropped.
     - The data was filtered to only include US.
     - Over 40 unnecessary columns were dropped.
-
-## Communication Protocols:
-- Use pandas to clean and perform exploratory analysis on the datasets. Visualize the data to understand relationships between variables, highlight trends, and identify potential outliers or unnecessary data.
-- Select and train machine learning model.
-- Evaluate the model and determine its accuracy. 
-- Use Google Slides and Tableau to communicate analysis and visualizations.
-
 
 ## Database Preparation
 
