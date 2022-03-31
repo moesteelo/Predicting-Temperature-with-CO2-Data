@@ -12,16 +12,25 @@ We are hoping to explore the relationship between CO2, the climate, and other fa
 - [Github: CO2 Emissions](https://github.com/owid/co2-data)
 
 ## Preliminary Data Preprocessing
-- Temperature Data
-    - A year column was added.
-    - The data was filtered to only include US.
-    - The temperature was averaged per year.
-    - The "dt" and "state" columns were removed.
+#### Temperature Data
+To narrow our focus for our analysis and machine learning model, we filtered the data to only include the US. Next we extracted the year and month from the date column, and calculated the average temperature per year. This cleaned dataset will help us look at yearly temperature data in the US.
 
-- CO2 Emissions Data
-    - Columns with more than 90% NaN values were dropped.
-    - The data was filtered to only include US.
-    - Over 40 unnecessary columns were dropped.
+Initial dataset:
+
+![initial-temp](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/temp-cleaning-img/initial.PNG)
+
+Cleaned dataset:
+
+![clean-temp](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/temp-cleaning-img/clean.PNG)
+
+#### CO2 Emissions Data
+To narrow our focus for our analysis and machine learning model, we filtered the data to only include the US. Next we dropped all columns with more than 90% NaN values. To further narrow our focus, we dropped all columns with non-beneficial data. This brought us down from 25191 rows × 60 columns to 221 rows × 22 columns
+
+Initial dataset:
+![initial-co2](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/co2-cleaning-img/initial.PNG)
+
+Cleaned dataset:
+![clean-co2](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/co2-cleaning-img/clean.PNG)
 
 ## Database Preparation
 
