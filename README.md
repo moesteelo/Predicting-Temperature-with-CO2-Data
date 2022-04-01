@@ -46,3 +46,10 @@ This left us with two datasets that we could now join through SQL. The two files
 Now, we had a dataset that could be input into our machine learning model.
 
 ## Machine Learning Model
+
+During the Machine Learning process we used 4 Supervised Machine Learning process to evaluate our overall data and to see what Machine Learning process best suits our data.
+
+- **Logistic Regression Model**
+
+In the process of using the Logistic Regression Model the overall result of the accuracy score was 27%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
+
