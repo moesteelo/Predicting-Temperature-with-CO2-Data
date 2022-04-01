@@ -1,4 +1,4 @@
-# Determining whether various CO2 pollutants contribute to the rise of heat temperatures in the United States
+# Does various CO2 pollutants influence heat temperatures in the United States
 Using complex data to help uncover the leading causes in the rise of heat temperatures by various CO2 pollutants in the United States
 
 ## Topic
@@ -59,4 +59,5 @@ In the process of using the Logistic Regression Model the overall result of the 
 
 The Deep Learning Model is a unique Machine Learning Model that we tried to incorporate in our Machine Learnig process for our data but unfortunately this process did not work for our data set. The overall accuracy score was 0%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
 
+<img src= "img/Deep learning Model.png" >
 
