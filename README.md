@@ -49,7 +49,14 @@ Now, we had a dataset that could be input into our machine learning model.
 
 During the Machine Learning process we used 4 Supervised Machine Learning process to evaluate our overall data and to see what Machine Learning process best suits our data.
 
-- **Logistic Regression Model**
+### **Logistic Regression Model**
 
 In the process of using the Logistic Regression Model the overall result of the accuracy score was 27%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
+
+<img src= "img/Logistic Rgression Model.png" >
+
+### **Deep learning Model**
+
+The Deep Learning Model is a unique Machine Learning Model that we tried to incorporate in our Machine Learnig process for our data but unfortunately this process did not work for our data set. The overall accuracy score was 0%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
+
 
