@@ -55,9 +55,9 @@ In the process of using the Logistic Regression Model the overall result of the 
 
 <img src= "img/Logistic Rgression Model.png" >
 
-### **Deep learning Model**
+### **OLS Regression Results**
 
-The Deep Learning Model is a unique Machine Learning Model that we tried to incorporate in our Machine Learnig process for our data but unfortunately this process did not work for our data set. The overall accuracy score was 0%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
+Based on our OLS Regression Results our R-squared predicted that there is a 40% Linear Model influence in various CO2 factors contributing to the rise of heat temperatures.
 
-<img src= "img/Deep learning Model.png" >
+<img src= "img/OLS Regression Results.png" >
 
