@@ -1,21 +1,36 @@
-# Determining whether various CO2 pollutants contribute to the rise of heat temperatures in the United States
+# Does various CO2 factors influence heat temperatures in the United States?
 Using complex data to help uncover the leading causes in the rise of heat temperatures by various CO2 pollutants in the United States
 
 ## Topic
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to predict future CO2 levels/temperatures and consequently understand the how these things will affect our habitat in the years to come. We chose this subject as climate change is an unavoidable part of life and being able to understand the ways in which this phenomenon will unfold will be important when planning for the future. With this exploration we plan to understand how CO2 emissions and other related factors will affect our habitat.
 
-## Sources of Data (may be subject to change):
-- CO2 and Greenhouse Gas Emissions Dataset:
-  - CO2 and Greenhouse Gas Emissions dataset is a collection of key metrics maintained by Our World in Data. It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics. 
-  - https://github.com/owid/co2-data
+## Question We Would like to answer:
+- Do various sources CO2 emissions contribute to the rise in temperature in the US?
 
-- California Avg Temperatures : NOAA
-  - Information on average temperatures in California collected by the National Oceanic and Atmospheric Administration. The gathered information has temperature data for each month from the year 1990 to 2021.
+## Sources of Data:
+- [Kaggle: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
+- [Github: CO2 Emissions](https://github.com/owid/co2-data)
 
-## Communication Protocols (may be subject to change):
-- Line graph to convey CO2 emissions over time
-- Heat map to convey average temperatures over time
+## Preliminary Data Preprocessing
+#### Temperature Data
+To narrow our focus for our analysis and machine learning model, we filtered the data to only include the US. Next we extracted the year and month from the date column, and calculated the average temperature per year. This cleaned dataset will help us look at yearly temperature data in the US.
 
+Initial dataset:
+
+![initial-temp](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/temp-cleaning-img/initial.PNG)
+
+Cleaned dataset:
+
+![clean-temp](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/temp-cleaning-img/clean.PNG)
+
+#### CO2 Emissions Data
+To narrow our focus for our analysis and machine learning model, we filtered the data to only include the US. Next we dropped all columns with more than 90% NaN values. To further narrow our focus, we dropped all columns with non-beneficial data. This brought us down from 25191 rows × 60 columns to 221 rows × 22 columns
+
+Initial dataset:
+![initial-co2](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/co2-cleaning-img/initial.PNG)
+
+Cleaned dataset:
+![clean-co2](https://github.com/moesteelo/Predict-CO2-With-Data/blob/judyw/img/co2-cleaning-img/clean.PNG)
 
 ## Database Preparation
 
@@ -29,3 +44,35 @@ This left us with two datasets that we could now join through SQL. The two files
 <img width="497" alt="select" src="https://user-images.githubusercontent.com/72320203/160341352-087bc044-4d4c-4bc8-b509-d1c49fae6394.PNG">
 
 Now, we had a dataset that could be input into our machine learning model.
+
+## Machine Learning Model
+
+During the Machine Learning process we used 4 Supervised Machine Learning process to evaluate our overall data and to see what Machine Learning process best suits our data.
+
+### **Logistic Regression Model**
+
+In the process of using the Logistic Regression Model the overall result of the accuracy score was 27%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in heat temperature.
+
+<img src= "img/Logistic Rgression Model.png" >
+
+### **OLS Regression Results**
+
+Based on our OLS Regression Results our R-squared predicted that there is a 40% Linear Model influence in various CO2 factors contributing to the rise of heat temperatures.
+
+<img src= "img/OLS Regression Results.png" >
+
+
+### **Random Forest Classifier Results**
+
+Based on our Random Forest classification algorithm we used to.  One of the biggest advantages of random forest is its versatility. It can be used for both regression and classification tasks, and it’s also easy to view the relative importance it assigns to the input features.
+
+Random forest is also a very handy algorithm because  produce a good prediction results and in our data we used to see whether factors of CO2 contribute to the increase in heat temperatures. Based on our Random Forest accuracy it resulted in a 63% accuracy score. 
+
+<img src= "img/Random Forest Classifier.png" >
+
+
+## Dashboard Tableau
+We used Tableau to create and host our dashboard. The file is also stored in the repository. <br/>
+[Tableau Dashboard](https://public.tableau.com/app/profile/jun6899/viz/ChangesinAverageUSTemperaturesCO2andCompany/Dashboard1)
+
+
