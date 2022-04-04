@@ -71,5 +71,5 @@ Random forest is also a very handy algorithm because  produce a good prediction 
 <img src= "img/Random Forest Classifier.png" >
 
 
-## Dashboard Tabaleau
-[Tableau Visualization](https://public.tableau.com/app/profile/jun6899/viz/ChangesinAverageUSTemperaturesCO2andCompany/Dashboard1?publish=yes)
+## Dashboard Tableau
+[Tableau Visualization](https://public.tableau.com/app/profile/jun6899/viz/ChangesinAverageUSTemperaturesCO2andCompany/Dashboard1)
