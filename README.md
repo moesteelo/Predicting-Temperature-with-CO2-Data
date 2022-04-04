@@ -40,7 +40,8 @@ Once we had the datasets we wanted to use, we now could endeavor to join them to
 ![image](https://user-images.githubusercontent.com/72320203/160340006-fff351e2-92a4-4ee5-85a8-75091608b112.png)
 
 This left us with two datasets that we could now join through SQL. The following is an image of the ERD:<br/>
-<img src= "img/erd.png" >
+
+<img src= "img/erd.PNG" >
 
 The two files were imported into PGAdmin and joined with SQL. "Global Land "Temperatures" and "CO2 and Greenhouse Gas Emissions" were joined on the shared column of "year" and then saved into a file. The following is the code for that query: <br/>
 
