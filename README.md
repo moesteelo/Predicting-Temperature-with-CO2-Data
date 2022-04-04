@@ -72,7 +72,7 @@ Random forest is also a very handy algorithm because  produce a good prediction 
 
 
 ## Dashboard Tableau
-We used Tableau to create and host our dashboard. The file is also stored in the repository.
+We used Tableau to create and host our dashboard. The file is also stored in the repository. <br/>
 [Tableau Dashboard](https://public.tableau.com/app/profile/jun6899/viz/ChangesinAverageUSTemperaturesCO2andCompany/Dashboard1)
 
 
