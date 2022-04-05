@@ -83,5 +83,5 @@ We used Tableau to create and host our dashboard. The file is also stored in the
 Below shows the United States 12 month heat forecast. It also displays the Average Temperature increasing from 1750 to 2013.
 
 <img src= "img/United States 12 Month Temp.png"  >
-
+<img src= "img/AVG Temperature display by years ML process.png"  >
 
