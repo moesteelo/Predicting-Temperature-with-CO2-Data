@@ -65,7 +65,6 @@ Based on our OLS Regression Results our R-squared predicted that there is a 40% 
 
 <img src= "img/OLS Regression Results.png" >
 
-
 ### **Random Forest Classifier Results**
 
 Based on our Random Forest classification algorithm we used to.  One of the biggest advantages of random forest is its versatility. It can be used for both regression and classification tasks, and it’s also easy to view the relative importance it assigns to the input features.
@@ -78,5 +77,11 @@ Random forest is also a very handy algorithm because  produce a good prediction 
 ## Dashboard Tableau
 We used Tableau to create and host our dashboard. The file is also stored in the repository. <br/>
 [Tableau Dashboard](https://public.tableau.com/app/profile/jun6899/viz/ChangesinAverageUSTemperaturesCO2andCompany/Dashboard1)
+
+## Visualizing the Data
+
+Below shows the United States 12 month heat forecast. It also displays the Average Temperature increasing from 1750 to 2013.
+
+<img src= "img/United States 12 Month Temp.png"  >
 
 
