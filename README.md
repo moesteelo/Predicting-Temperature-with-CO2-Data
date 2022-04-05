@@ -1,4 +1,4 @@
-# Does various CO2 factors influence heat temperatures in the United States?
+# Do various CO2 factors influence heat temperatures in the United States?
 Using complex data to help uncover the leading causes in the rise of heat temperatures by various CO2 pollutants in the United States
 
 ## Topic
