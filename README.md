@@ -51,7 +51,7 @@ Now, we had a dataset that could be input into our machine learning model.
 
 ## Machine Learning Model
 
-During the Machine Learning process we used 4 Supervised Machine Learning process to evaluate our overall data and to see what Machine Learning process best suits our data.
+During the Machine Learning process we used 4 Supervised Machine Learning processes to evaluate our overall data and to determine which process best suits our data.
 
 ### **Logistic Regression Model**
 
