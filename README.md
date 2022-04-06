@@ -1,4 +1,4 @@
-# Rising Temperatures: CO2 and COmpany
+# Rising Temperatures: CO2 and Company
 Using complex data to help uncover the leading causes in the rise of temperatures by various CO2 pollutants in the United States
 
 ## Topic
