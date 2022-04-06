@@ -67,9 +67,7 @@ Based on our OLS Regression Results our R-squared predicted that there is a 40% 
 
 ### **Random Forest Classifier Results**
 
-Based on our Random Forest classification algorithm we used to.  One of the biggest advantages of random forest is its versatility. It can be used for both regression and classification tasks, and it’s also easy to view the relative importance it assigns to the input features.
-
-Random forest is also a very handy algorithm because  produce a good prediction results and in our data we used to see whether factors of CO2 contribute to the increase in temperatures. Based on our Random Forest accuracy it resulted in a 63% accuracy score. 
+Based on our Random Forest classification algorithm we used to help our prediction results to see whether factors of CO2 contribute to the increase in temperatures.  One of the biggest advantages of random forest is its versatility. It can be used for both regression and classification tasks. Based on our data the Random Forest model generated a 63% accuracy score. This score revealed that our data may have a slight positive influence to the rise in temperatures in the United States.
 
 <img src= "img/Random Forest Classifier.png" >
 
