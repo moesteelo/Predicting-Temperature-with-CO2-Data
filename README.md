@@ -11,7 +11,7 @@ We are hoping to explore the relationship between CO2, the climate, and other fa
 - [Global Land Temperatures](http://berkeleyearth.org/data-visualization/)
 
 
-## Preliminary Data Preprocessing
+## Data Preprocessing
 #### Temperature Data
 To narrow our focus for our analysis and machine learning model, we filtered the data to only include the US. Next we extracted the year and month from the date column. This cleaned dataset will help us look at yearly temperature data in the US.
 
