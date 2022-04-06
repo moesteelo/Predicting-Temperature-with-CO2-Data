@@ -53,6 +53,17 @@ Now, we had a dataset that could be input into our machine learning model.
 
 During the Machine Learning process we used 4 Supervised Machine Learning processes to evaluate our overall data and to determine which process best suits our data.
 
+### **Multiple Linear Regression Model**
+
+Multiple linear regression designed to find a relationship between a single independent and dependent variable. The adjusted R score of our multiple linear regression model is 37.76% indicating the machine learning model work well. However, there are many more factors than CO2 influence the Average temperature increase
+
+<img src= "img/Multiple_Linear_Regression.png">
+
+### **Confusion Matrix for Random Forest Classification**
+
+<img src= "Confusion_matrix.png" >
+
+
 ### **Logistic Regression Model**
 
 In the process of using the Logistic Regression Model the overall result of the accuracy score was 27%. This did not meet our minimum 70% accuracy score to determine whether various CO2 factors contributes to the rise in temperature.
