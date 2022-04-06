@@ -1,4 +1,4 @@
-# Rising Temperatures: CO2 and Company
+# Rising Temperatues: CO2 and Contributors 
 ## Topic
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to see whether or not these factors have an influence on the rising temperatures. We selected this question as we hoped to further understand global warming as climate change is becoming an unavoidable part of life. With this exploration, we plan to understand how CO2 emissions and other related factors will affect our habitat.
 
@@ -85,5 +85,4 @@ Below shows the United States 12 month heat forecast. It also displays the Avera
 <img src= "img/United States 12 Month Temp.png"  >
 <img src= "img/AVG Temperature display by years ML process.png"  >
 
-=======
 
