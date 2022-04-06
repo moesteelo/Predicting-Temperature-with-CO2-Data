@@ -1,4 +1,3 @@
-<<<<<<< main
 # Do various CO2 factors influence temperatures in the United States?
 Using complex data to help uncover the leading causes in the rise of temperatures by various CO2 pollutants in the United States
 
@@ -104,4 +103,4 @@ We are hoping to explore the relationship between CO2 and climate to predict fut
 ## Communication Protocols (may be subject to change):
 - Line graph to convey CO2 emissions over time
 - Heat map to convey average temperatures over time
->>>>>>> mattiechan
+
