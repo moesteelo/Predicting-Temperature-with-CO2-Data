@@ -1,4 +1,4 @@
-# Do various CO2 factors influence temperatures in the United States?
+# Rising Temperatures: CO2 and COmpany
 Using complex data to help uncover the leading causes in the rise of temperatures by various CO2 pollutants in the United States
 
 ## Topic
