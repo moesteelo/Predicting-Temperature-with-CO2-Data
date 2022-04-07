@@ -95,6 +95,18 @@ Below shows the United States 12 month heat forecast. It also displays the Avera
 <img src= "img/United States 12 Month Temp.png"  >
 <img src= "img/AVG Temperature display by years ML process.png"  >
 
+## Conclusion Results
+
+Seeing the upward trends CO2 and greenhouse gas emissions, population, and temperature, it’s possible that CO2 and/or a combination of these factors has a positive influence on temperature.
+
+## Recommendation for future analysis
+
+- Explore more models for better fit
+- More granular breakdown of what data sets should be examined throughly
+- Expand scope of data to include more countries and other pollutant factors
+- Find more recent data exploring Avg Temperature and CO2 data 
+
+
 ## CO2 Effect on Temperature Google Slides
 
 [Google Slides](https://docs.google.com/presentation/d/1ufzwVPUsOWHUAslN3fsjy4kuGSDC7MxnokdIxQLYEQk/edit?usp=sharing)
