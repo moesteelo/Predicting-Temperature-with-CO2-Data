@@ -1,5 +1,6 @@
-# Rising Temperatues: CO2 and Contributors 
-## Topic
+# CO2 and other Factors Influencing Temperature
+ 
+## Overview
 We are hoping to explore the relationship between CO2, the climate, and other factors (nitrous oxide per capita, GDP, population, etc.) to see whether or not these factors have an influence on the rising temperatures. We selected this question as we hoped to further understand global warming as climate change is becoming an unavoidable part of life. With this exploration, we plan to understand how CO2 emissions and other related factors will affect our habitat.
 
 ## Question We Would like to answer:
