@@ -61,8 +61,9 @@ Multiple linear regression designed to find a relationship between a single inde
 
 ### **Confusion Matrix for Random Forest Classification**
 
-<img src= "Confusion_matrix.png" >
+The classifier confusion matrix, overall accuracy with 63%, RandomForestClassifier algorithm is better model to predict the average temperature. 
 
+<img src= "img/Confusion_matrix.png" >
 
 ### **Logistic Regression Model**
 
